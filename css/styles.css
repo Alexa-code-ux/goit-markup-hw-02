@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', 'Open Sans', 'Noto Sans', 'Segoe UI', 'Raleway', sans-serif;
+  background: var(--white);
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background: #4d5ae5;
+}
+.header-logo-studio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background: #2e2f42;
+}
+
+.section-one {
+  background-color: #2e2f42;
+}
+.button-click {
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-click:hover,
+.button-click:focus {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background: #404bbf;
+}
+
+.section-first-descr > li {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section-first-descr-cont{
+    font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        color: #434455;
+}
+
+.section-first-descr-cont:hover,
+.section-first-descr-cont:focus{
+    font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        background: #404BBF;
+}
+
+.title-main {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  /* line-height: 60px; */
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.sections-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  /* line-height: 40px; */
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.section-two-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section-two-descr {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.name-of-team {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.name-of-team-discr {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
+}
+.section-four-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 24px; */
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section-four-descr {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}

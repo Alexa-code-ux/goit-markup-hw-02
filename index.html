@@ -3,13 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html">Web<span class="header-logo-studio">Studio</span></a>
+        <ul class="section-first-descr">
           <li>
             <a href="">Studio</a>
           </li>
@@ -24,48 +36,48 @@
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="section-first-descr-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="section-first-descr-cont" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- section effective solutions -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-one">
+        <h1 class="title-main">Effective Solutions for Your Business</h1>
+        <button class="button-click" type="button">Order Service</button>
       </section>
       <!-- section strategy -->
       <section>
-        <h2>Features</h2>
+        <h2 class="sections-title">Features</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="section-two-title">Strategy</h3>
+            <p class="section-two-descr">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="section-two-title">Punctuality</h3>
+            <p class="section-two-descr">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="section-two-title">Diligence</h3>
+            <p class="section-two-descr">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="section-two-title">Technologies</h3>
+            <p class="section-two-descr">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -74,7 +86,7 @@
       </section>
       <!-- section  our team -->
       <section>
-        <h2>Our Team</h2>
+        <h2 class="sections-title">Our Team</h2>
         <ul>
           <li>
             <img
@@ -83,8 +95,8 @@
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="name-of-team">Mark Guerrero</h3>
+            <p class="name-of-team-discr">Product Designer</p>
           </li>
           <li>
             <img
@@ -93,8 +105,8 @@
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="name-of-team">Tom Ford</h3>
+            <p class="name-of-team-discr">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -103,8 +115,8 @@
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="name-of-team">Camila Garcia</h3>
+            <p class="name-of-team-discr">Marketing</p>
           </li>
           <li>
             <img
@@ -113,8 +125,74 @@
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="name-of-team">Daniel Wilson</h3>
+            <p class="name-of-team-discr">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!-- our portfolio -->
+      <section>
+        <h2 class="sections-title">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/img4.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-four-title">Banking App</h3>
+            <p class="section-four-descr">App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img5.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-four-title">Cashless Payment</h3>
+            <p class="section-four-descr">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img6.jpg"
+              alt="Mediation App"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-four-title">Mediation App</h3>
+            <p class="section-four-descr">App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img7.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-four-title">Taxi Service</h3>
+            <p class="section-four-descr">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/img8.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-four-title">Screen Illustrations</h3>
+            <p class="section-four-descr">Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/img9.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3 class="section-four-title">Online Courses</h3>
+            <p class="section-four-descr">Marketing</p>
           </li>
         </ul>
       </section>
