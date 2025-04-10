@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto', 'Open Sans', 'Noto Sans', 'Segoe UI', 'Raleway', sans-serif;
-  background: var(--white);
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background: #ffffff;
   font-weight: Regular;
   font-size: 16px;
   line-height: 24px;
@@ -12,7 +13,16 @@ ul {
 a {
   text-decoration: none;
 }
-.header-logo {
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  }
+.logo-studio {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -20,16 +30,7 @@ a {
   letter-spacing: 3%;
   vertical-align: middle;
   text-transform: uppercase;
-  background: #4d5ae5;
-}
-.header-logo-studio {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-  vertical-align: middle;
-  text-transform: uppercase;
+  color: #f4f4fd;
   background: #2e2f42;
 }
 
@@ -91,20 +92,21 @@ a {
   font-weight: 700;
   font-size: 56px;
   /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 .sections-title {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section-two-title {
@@ -115,7 +117,7 @@ a {
   /* line-height: 24px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .section-two-descr {
   font-weight: 400;
@@ -124,7 +126,13 @@ a {
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
+}
+.section-three {
+    background-color: #f4f4fd;
+}
+.section-three-item {
+    background-color: #ffffff;
 }
 .name-of-team {
   font-family: Roboto, sans-serif;
@@ -135,7 +143,7 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .name-of-team-discr {
   font-weight: 400;
@@ -145,11 +153,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--slate);
+  color: #434455;
 }
 .section-four-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
 
   /* line-height: 24px; */
   line-height: 1.2;
@@ -164,4 +175,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+.footer-logo {
+background-color: #2e2f42;
+}  
+.footer-par {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
